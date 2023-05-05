@@ -63,6 +63,7 @@
 		13FCDDE129F981AA00FBB503 /* FistWeek */ = {
 			isa = PBXGroup;
 			children = (
+				13CB3F212A04EBF300CEB9E2 /* Fullcard.swift */,
 				13CB3F1F2A04E4CC00CEB9E2 /* Backcard.swift */,
 				13AAE8A12A02AADA00C9BA7D /* BtnComponent.swift */,
 				13CB3F1D2A04E33B00CEB9E2 /* TextView.swift */,
@@ -72,7 +73,6 @@
 				13FCDDE429F981AA00FBB503 /* ContentView.swift */,
 				13FCDDE629F981AC00FBB503 /* Assets.xcassets */,
 				13FCDDE829F981AC00FBB503 /* Preview Content */,
-				13CB3F212A04EBF300CEB9E2 /* Fullcard.swift */,
 			);
 			path = FistWeek;
 			sourceTree = "<group>";

@@ -25,7 +25,7 @@ struct BtnComponent: ButtonStyle {
         }
             .padding(.leading, 25)
             .padding(.trailing, 26)
-            .padding(.bottom, 25)
+            .padding(.bottom, 50)
     }
 }
 
