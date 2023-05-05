@@ -7,20 +7,25 @@
 
 import SwiftUI
 
-struct BtnComponent: View {
-    var body: some View {
-        Button {
-            print("출쓱하자")
-        } label: {
-            Text("출쓱하기")
+struct BtnComponent: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        ZStack{
+            Rectangle()
+                .fill(Color("btnbg"))
+                .frame(height: 100)
                 .frame(maxWidth: .infinity)
+                .cornerRadius(50)
+               
+            
+            
+            configuration.label
+                .foregroundColor(Color.white)
+                .frame(alignment: .center)
+                .font(.system(size: 20))
         }
-
+            .padding(.leading, 25)
+            .padding(.trailing, 26)
+            .padding(.bottom, 25)
     }
 }
 
-struct BtnComponent_Previews: PreviewProvider {
-    static var previews: some View {
-        BtnComponent()
-    }
-}

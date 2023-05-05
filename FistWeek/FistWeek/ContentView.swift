@@ -16,6 +16,17 @@ struct ContentView: View {
             VStack {
                 Header()
                     .border(Color.blue)
+                TextView()
+                    .border(Color.green)
+                Backcard()
+                Button {
+                    print("출썩했어영")
+                } label: {
+                    Text("출쓱하기")
+                }
+                .buttonStyle(BtnComponent())
+                .border(Color.red)
+
             }
             
         }
