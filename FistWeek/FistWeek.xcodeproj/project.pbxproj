@@ -13,6 +13,7 @@
 		13CB3F1E2A04E33B00CEB9E2 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB3F1D2A04E33B00CEB9E2 /* TextView.swift */; };
 		13CB3F202A04E4CC00CEB9E2 /* Backcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB3F1F2A04E4CC00CEB9E2 /* Backcard.swift */; };
 		13CB3F222A04EBF300CEB9E2 /* Fullcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB3F212A04EBF300CEB9E2 /* Fullcard.swift */; };
+		13CB3F262A061E7700CEB9E2 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB3F252A061E7700CEB9E2 /* FlipView.swift */; };
 		13FCDDE329F981AA00FBB503 /* FistWeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FCDDE229F981AA00FBB503 /* FistWeekApp.swift */; };
 		13FCDDE529F981AA00FBB503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FCDDE429F981AA00FBB503 /* ContentView.swift */; };
 		13FCDDE729F981AC00FBB503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FCDDE629F981AC00FBB503 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		13CB3F1D2A04E33B00CEB9E2 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		13CB3F1F2A04E4CC00CEB9E2 /* Backcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backcard.swift; sourceTree = "<group>"; };
 		13CB3F212A04EBF300CEB9E2 /* Fullcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fullcard.swift; sourceTree = "<group>"; };
+		13CB3F252A061E7700CEB9E2 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		13FCDDDF29F981AA00FBB503 /* FistWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FistWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FCDDE229F981AA00FBB503 /* FistWeekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FistWeekApp.swift; sourceTree = "<group>"; };
 		13FCDDE429F981AA00FBB503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				13FCDDE429F981AA00FBB503 /* ContentView.swift */,
 				13FCDDE629F981AC00FBB503 /* Assets.xcassets */,
 				13FCDDE829F981AC00FBB503 /* Preview Content */,
+				13CB3F252A061E7700CEB9E2 /* FlipView.swift */,
 			);
 			path = FistWeek;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13FCDDE529F981AA00FBB503 /* ContentView.swift in Sources */,
+				13CB3F262A061E7700CEB9E2 /* FlipView.swift in Sources */,
 				13AAE89E2A02A81F00C9BA7D /* Frontcard.swift in Sources */,
 				13AAE89C2A029B9700C9BA7D /* Header.swift in Sources */,
 				13CB3F1E2A04E33B00CEB9E2 /* TextView.swift in Sources */,

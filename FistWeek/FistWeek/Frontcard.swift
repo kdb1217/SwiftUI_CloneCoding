@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct Frontcard: View {
-    @State var filped: Bool = false
     var body: some View {
         ZStack{
             Rectangle()
@@ -45,12 +44,6 @@ struct Frontcard: View {
         .frame(maxWidth: .infinity)
         .frame(height: 463)
         .padding(.bottom, 30)
-        .rotation3DEffect(filped ? Angle(degrees: 180): .zero, axis: (x: 0.0, y: 180, z: 0.0),perspective: 0.4)
-        .rotation3DEffect(filped ? Angle(degrees: 180): .zero, axis: (x: 0.0, y: 180, z: 0.0),perspective: 0.4)
-        .animation(.easeInOut(duration: 0.8),value: filped)
-        .onTapGesture {
-            filped.toggle()
-        }
         
     }
 }

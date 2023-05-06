@@ -9,7 +9,6 @@ import SwiftUI
 
 struct Backcard: View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
-    @State var filped: Bool = false
     var body: some View {
      
         ZStack{
@@ -48,13 +47,6 @@ struct Backcard: View {
         .frame(maxWidth: .infinity)
         .frame(height: 463)
         .padding(.bottom, 30)
-        .rotation3DEffect(filped ? Angle(degrees: -180): .zero, axis: (x: 0.0, y: -180, z: 0.0),perspective: 0.2)
-        .rotation3DEffect(filped ? Angle(degrees: -180): .zero, axis: (x: 0.0, y: -180, z: 0.0),perspective: 0.2)
-        .animation(.easeInOut(duration: 0.8), value: filped)
-       
-        .onTapGesture {
-            filped.toggle()
-        }
     }
 }
 

@@ -15,6 +15,7 @@ struct BtnComponent: ButtonStyle {
                 .frame(height: 100)
                 .frame(maxWidth: .infinity)
                 .cornerRadius(50)
+            
                
             
             
@@ -26,6 +27,7 @@ struct BtnComponent: ButtonStyle {
             .padding(.leading, 25)
             .padding(.trailing, 26)
             .padding(.bottom, 50)
+         
     }
 }
 
