@@ -17,10 +17,14 @@ struct FlipView<Frontcard: View, Backcard: View>: View {
         ZStack(){
             frontCard
                 .modifier(FlipOpacity(percentage: showBack ? 0 : 1))
-                .rotation3DEffect(Angle.degrees(showBack ? 180 : 360), axis: (0,1,0),perspective: 0.4)
+                .rotation3DEffect(Angle.degrees(showBack ? 180 : 360), axis: (0,1,0),perspective: 0.2)
+                .animation(.linear(duration: 0.6), value: showBack)
+    
             backCard
                 .modifier(FlipOpacity(percentage: showBack ? 1 : 0))
-                .rotation3DEffect(Angle.degrees(showBack ? 0 : 180), axis: (0,1,0),perspective: 0.4)
+                .rotation3DEffect(Angle.degrees(showBack ? 0 : 180), axis: (0,1,0),perspective: 0.2)
+                .animation(.linear(duration: 0.6), value: showBack)
+    
         }
         .onTapGesture {
             withAnimation {

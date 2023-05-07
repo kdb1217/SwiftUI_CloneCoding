@@ -16,9 +16,6 @@ struct BtnComponent: ButtonStyle {
                 .frame(maxWidth: .infinity)
                 .cornerRadius(50)
             
-               
-            
-            
             configuration.label
                 .foregroundColor(Color.white)
                 .frame(alignment: .center)
@@ -27,7 +24,6 @@ struct BtnComponent: ButtonStyle {
             .padding(.leading, 25)
             .padding(.trailing, 26)
             .padding(.bottom, 50)
-         
     }
 }
 

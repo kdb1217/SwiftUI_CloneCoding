@@ -9,13 +9,15 @@ import SwiftUI
 
 struct TextView: View {
     var body: some View {
-        VStack{
-            Text("월클 디벨로퍼 Rash. \n오늘도 화이팅하세요!")
+        VStack(alignment: .leading){
+            Text("월클 디벨로퍼 Rash.\n오늘도 화이팅하세요!")
+                .lineLimit(2)
                 .font(.system(size: 18))
+                .padding(.leading, 25)
                 .lineSpacing(8)
-                .frame(maxWidth: .infinity,alignment: .leading)
-                .padding(.leading,25)
+
         }
+        .frame(maxWidth: .infinity,alignment: .leading)
         .padding(.bottom, 38)
     }
 }

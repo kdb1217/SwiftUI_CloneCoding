@@ -15,6 +15,7 @@ struct Frontcard: View {
                 .cornerRadius(24)
                 .frame(width:343,height: 463)
                 .shadow(radius: 4)
+
                 VStack{
                     Spacer()
                     Image("cute")
@@ -25,6 +26,7 @@ struct Frontcard: View {
                         .padding(.bottom,42)
                     Text("오늘은 아카데미 휴일! \n푹 쉬고 다음에 만나요.")
                         .font(.system(size: 18))
+                    
                         .lineSpacing(6)
                         .padding(.bottom,16)
                     HStack{
@@ -35,6 +37,7 @@ struct Frontcard: View {
                             .resizable()
                             .frame(width:8,height: 12)
                             .foregroundColor(Color("text"))
+
                             
                     }
                     .padding(.bottom,30)

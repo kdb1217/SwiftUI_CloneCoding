@@ -13,12 +13,12 @@ struct ContentView: View {
         ZStack{
             Color("bg")
                 .ignoresSafeArea()
-            VStack {
+            VStack(alignment: .trailing, spacing: 0) {
                 Spacer()
                 Header()
                     .border(Color.blue)
-                TextView()
-                    .border(Color.green)
+               TextView()
+                    .border(.brown)
                 FlipView(frontCard: FrontCard(), backCard: BackCard(), showBack: $fliped)
                     .border(Color.orange)
                 Button {
@@ -28,8 +28,7 @@ struct ContentView: View {
                 }
                 .buttonStyle(BtnComponent())
                 .border(Color.red)
-
-            }
+            }.ignoresSafeArea()
             
         }
     }

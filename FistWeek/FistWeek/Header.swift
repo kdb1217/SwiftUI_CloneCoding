@@ -21,8 +21,9 @@ struct Header: View {
                 .frame(width: 28, height: 27)
                 .padding(.trailing,30)
         }
-        .frame(maxWidth: .infinity,alignment: .trailing)
+        .frame(maxWidth: .infinity, alignment: .trailing)
         .padding(.bottom,20)
+        
     }
 }
 
