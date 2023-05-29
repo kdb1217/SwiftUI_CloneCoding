@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130A1BCF2A24D40200C96F3F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130A1BCE2A24D40200C96F3F /* SwiftUIView.swift */; };
 		13AAE89C2A029B9700C9BA7D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE89B2A029B9600C9BA7D /* Header.swift */; };
 		13AAE89E2A02A81F00C9BA7D /* Frontcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE89D2A02A81F00C9BA7D /* Frontcard.swift */; };
 		13AAE8A22A02AADA00C9BA7D /* BtnComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AAE8A12A02AADA00C9BA7D /* BtnComponent.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		130A1BCE2A24D40200C96F3F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		13AAE89B2A029B9600C9BA7D /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		13AAE89D2A02A81F00C9BA7D /* Frontcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frontcard.swift; sourceTree = "<group>"; };
 		13AAE8A12A02AADA00C9BA7D /* BtnComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnComponent.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				13FCDDE629F981AC00FBB503 /* Assets.xcassets */,
 				13FCDDE829F981AC00FBB503 /* Preview Content */,
 				13CB3F252A061E7700CEB9E2 /* FlipView.swift */,
+				130A1BCE2A24D40200C96F3F /* SwiftUIView.swift */,
 			);
 			path = FistWeek;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				13CB3F262A061E7700CEB9E2 /* FlipView.swift in Sources */,
 				13AAE89E2A02A81F00C9BA7D /* Frontcard.swift in Sources */,
 				13AAE89C2A029B9700C9BA7D /* Header.swift in Sources */,
+				130A1BCF2A24D40200C96F3F /* SwiftUIView.swift in Sources */,
 				13CB3F1E2A04E33B00CEB9E2 /* TextView.swift in Sources */,
 				13AAE8A22A02AADA00C9BA7D /* BtnComponent.swift in Sources */,
 				13FCDDE329F981AA00FBB503 /* FistWeekApp.swift in Sources */,

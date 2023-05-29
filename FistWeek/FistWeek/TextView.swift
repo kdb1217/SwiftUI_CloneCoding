@@ -18,6 +18,7 @@ struct TextView: View {
 
         }
         .frame(maxWidth: .infinity,alignment: .leading)
+        .border(.red)
         .padding(.bottom, 38)
     }
 }
